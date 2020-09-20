@@ -5,5 +5,5 @@ matplotlib
 pandas
 streamlit
 seaborn
-xgboost
+xgboost==0.90
 
