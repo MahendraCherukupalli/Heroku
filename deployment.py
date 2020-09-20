@@ -20,7 +20,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 def predict_Parkinson_Disease(MDVPFoHz,MDVPShimmer, ShimmerAPQ3, HNR,spread1,D2,PPE):
     try:
         input=np.array([[MDVPFoHz,MDVPShimmer, ShimmerAPQ3, HNR,spread1,D2,PPE]]).astype(np.float64)
-        input=model1.fit(input).transform(input)
+        input=model1.transform(input)
         prediction=model.predict(input)
         return prediction[0]
     except ValueError:
