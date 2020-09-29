@@ -29,7 +29,7 @@ def predict_Parkinson_Disease(MDVPFoHz,MDVPShimmer, ShimmerAPQ3, HNR,spread1,D2,
 def main():
     st.markdown("""
     <div style="background-color:black ;padding:10px">
-    <h2 style="color:rgb(248, 253, 127);text-align:center;">Tcehnocolabs ML Internship</h2>
+    <h2 style="color:rgb(248, 253, 127);text-align:center;">Technocolabs ML Internship</h2>
     </div>
     """, unsafe_allow_html=True)
     
